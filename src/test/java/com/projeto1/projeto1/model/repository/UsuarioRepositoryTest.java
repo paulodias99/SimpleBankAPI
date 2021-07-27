@@ -1,4 +1,4 @@
-package com.projeto1.projeto1.model.repositary;
+package com.projeto1.projeto1.model.repository;
 
 
 import java.util.Optional;
@@ -23,7 +23,7 @@ import com.projeto1.projeto1.model.repository.UsuarioRepository;
 @ActiveProfiles("test")
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = Replace.NONE)
-public class UsuarioRepositaryTest {
+public class UsuarioRepositoryTest {
 	
 	@Autowired
 	UsuarioRepository repository;
